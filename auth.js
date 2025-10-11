@@ -17,3 +17,16 @@ function login(username, password) {
 }
 
 module.exports = { register, login };
+
+// Input validation
+function validateInput(username, password) {
+    if (!username || username.length < 3) {
+        return "Username must be at least 3 characters";
+    }
+    if (!password || password.length < 6) {
+        return "Password must be at least 6 characters";
+    }
+    return null;
+}
+
+module.exports.validateInput = validateInput;
