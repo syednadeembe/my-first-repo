@@ -1,6 +1,1 @@
-# My First Repository
-
-Learning Git basics!
-
-## Contributing
-Feel free to contribute!
+# Main Project\n\nThis is the main branch.
